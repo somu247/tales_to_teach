@@ -1,0 +1,342 @@
+.bg-color{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 25px 0;
+}
+
+
+/* ---------------------------------------------------------------------navbar -------------*/
+.top-nav{
+    margin-bottom: 50px;
+    
+}
+@media (max-width:991px) {
+    
+    .hide-in-mobile{
+        display: none;
+        margin: 0px 0px 0px;
+    }
+    .mobile-resize{
+        height: 40px;
+        width: 150px;
+    }
+    a.navbar-brand{
+        padding: 0px 0px 0px 0px;
+    }
+    .mob-ul-not{
+        display: none;
+    }
+   .mob-ul-show{
+    display: block;
+  }
+  .menu-div{
+    
+     border-radius: 5px;
+      padding-left: 30px;
+       margin-top: 20px;
+  }
+  .menu-div2{
+    border: 0px !important;
+  }
+}
+@media (min-width: 991px) {
+    .min-view-logo{
+        margin-right:280px;
+    }
+  
+  
+  }
+
+/*-----------------------------------------------------------------       home ---------------------------------*/
+.idea{
+    margin-top:50px;
+                font-family:  cursive;
+                color:#db8118;
+                font-weight:800;margin-bottom:20px;
+}
+.headline{
+    font-family: 'Special Elite', cursive;
+                font-weight:bolder;
+                font-size:50px
+}
+.home-main{
+    padding: 50px;
+    margin-left: 0px;
+}
+.home-img{
+    height: 500px;
+    width: 500px;
+    border-radius: 52% 48% 41% 59% / 61% 66% 34% 39%  ;
+    border: 18px solid #94B9B8;  
+}
+.lap-view-hide{
+    display: none;
+}
+.info{
+    margin-top:0px;
+    font-family:  cursive;
+    color: grey;
+    font-weight:500;
+    font-size: 16px;
+    width: 540px;
+    margin-bottom:30px;
+}
+@media (max-width: 991px) {
+    .idea{
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .headline{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .home-main{
+        padding: 0px;
+        padding-left: 40px;
+    }
+    .colousal{
+        display: none;
+    }
+    .mob-view-hide{
+        display: none;
+    }
+    .lap-view-hide{
+        display: block;
+    }
+    .mob-bot-space{
+        margin-bottom: 190px;
+        
+    }
+    .home-img{
+    max-height: 220px;
+    max-width: 220px;
+    border-radius: 52% 48% 41% 59% / 61% 66% 34% 39%  ;
+    border: 8px solid #94B9B8; 
+    margin-bottom: 15px;
+    }
+    .info{
+        width: 100%;
+    margin-bottom:20px;
+    font-size: 12px;
+    }
+    
+}
+
+/*--------------------------------------------------------------- about us ----------------------------*/
+.mod-ht-abt{
+    height: 80vh;
+}
+.abt-img{
+    height: 500px;
+    width: 500px;
+    border-radius: 27% 73% 70% 30% / 30% 48% 52% 70% ;
+    border: 18px solid #94B9B8;  
+}
+.abt-para-sm{
+    font-family: Monospace;
+    color: #db8118;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.abt-head{
+    font-family: 'Special Elite', cursive;
+    margin-top: 0px;
+    font-weight:bolder;
+    font-size:50px;
+    font-weight:bolder;
+    
+}
+.abt-para-big{
+    font-family: roboto;
+    color: grey;
+    font-size: 12px;
+}
+.abt-img2{
+    height: 150px;
+    width: 150px;
+}
+.abt-div-sm{
+    display: flex;
+    flex-direction: row;
+}
+.book-bg{
+    background: rgba(0,0,0,0.5)url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover; 
+    
+    position: sticky;
+}
+.panch-card{
+    border: 2px solid #94B9B8;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.bg-container {
+    background-color: #FBCEB1;
+    
+}
+.image {
+    width: 200px;
+    height: 60px;
+}
+.bg-container2 {
+    background-color: #94B9B8;
+    margin: 3px;
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #5a7184;
+}
+.unlist {
+    list-style-type: none;
+    padding-left: 0;
+}
+.list {
+    font-family: "roboto";
+    font-size: 16;
+    font-weight: 500;
+    color: black;
+}
+.paragraph {
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+.line {
+    background-color: black;
+    border-width: 2px;
+}
+.pun-img{
+    padding-left: 50px;
+    height: 240px;
+     width: 280px;
+}
+.punch-ht{
+    height: 100vh; 
+     display: flex; 
+     flex-direction: column; 
+     justify-content: center;
+      align-items: center;
+}
+
+@media (max-width: 991px) {
+    .abt-para-sm{
+        margin: 0px 0px 3px 0px;
+        font-family: Monospace;
+    color: #db8118;
+    font-size: 15px;
+    font-weight: 600;
+    }
+    .mob-mid-abt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-ht-abt2{
+        height: 1850px !important;
+    }
+    .mob-mid-punch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .pun-img{
+        padding-left: 0px;
+    
+        height: 220px;
+        width: 220px;
+    }
+    .img-pun{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .punch-ht{
+        height: 2400px !important;
+    }
+    .headline2{
+        color: white;
+    }
+    .mob-mid-boks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+/*------------------------------------------------------------ features_books -----------------------------------*/
+
+
+
+.book-cont{
+    background-color: white;
+     height: 260px; 
+     width: 200px;
+      border: 2px solid #db8118 ; 
+      border-radius: 12px;
+}
+.books-ht{
+    height: 90vh;
+}
+
+@media (max-width: 991px) {
+    .book-cont{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .books-ht{
+        height: 1900px;
+    }
+    
+}
+
+
+
+/*---------------------------------------- teacher_cont -------------------------------------*/
+
+
+.teach-ht{
+    min-height: 80vh;
+}
+.teach-img{
+    height: 500px;
+    width: 500px;
+    border-radius: 27% 73% 70% 30% / 30% 48% 52% 70% ;
+    border: 18px solid #94B9B8;
+}
+@media (max-width: 991px) {
+    .teach-ht{
+        height: 860px !important;
+    }
+    .teach-img{
+        height: 220px;
+        width: 220px;
+        border: 5px solid #94B9B8;
+        margin-bottom: 16px;
+        margin-top: 22px;
+    }
+    
+}
+
+
+/*---------------------------------------------------------------------  footer --------------------*/
+
+
+
+.mob-view-place{
+    font-size: 14px;
+    font-weight: 600;
+}
